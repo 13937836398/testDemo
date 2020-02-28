@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Zoo</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+		<link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+		<script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+		<script src="https://cdn.staticfile.org/popper.js/1.15.0/umd/popper.min.js"></script>
+		<script src="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	</head>
+	<style>
+		.jieshao{
+			margin-top: 20px;
+		}
+	
+		.showBoard{
+			display: none;
+		}
+		.showBoardActive{
+			display: block ;
+		}
+		.btmTitle{
+			text-align: left;
+			padding-left: 40px;
+			font-weight: 800;
+		}	
+		.btmUl{
+			list-style: none;
+			
+		}
+		.btmUl > li{
+			text-align: left;
+			margin-bottom: 10px;
+		}
+	</style>
+	<body>
+
+		<div id="box">
+			<!-- 导航栏开始 -->
+			<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+				<a class="navbar-brand" href="index.html">Zoo</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="collapsibleNavbar">
+					<ul class="navbar-nav">
+						<li class="nav-item">
+							<a class="nav-link" href="papillon.html">蝴蝶</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="spider.html">蜘蛛</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="mantis.html">螳螂</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+
+			<!-- 导航栏结束 -->
+			<!-- 轮播图开始 -->
+			<div id="demo" class="carousel slide" data-ride="carousel">
+
+				<!-- 指示符 -->
+				<ul class="carousel-indicators">
+					<li data-target="#demo" data-slide-to="0" class="active"></li>
+					<li data-target="#demo" data-slide-to="1"></li>
+					<li data-target="#demo" data-slide-to="2"></li>
+				</ul>
+
+				<!-- 轮播图片 -->
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<img src="https://static.runoob.com/images/mix/img_fjords_wide.jpg" class="img-fluid" style=" width: 100% !important;">
+					</div>
+					<div class="carousel-item">
+						<img src="https://static.runoob.com/images/mix/img_nature_wide.jpg" class="img-fluid" style=" width: 100% !important;">
+					</div>
+					<div class="carousel-item">
+						<img src="https://static.runoob.com/images/mix/img_mountains_wide.jpg" class="img-fluid" style=" width: 100% !important;">
+					</div>
+				</div>
+
+				<!-- 左右切换按钮 -->
+				<a class="carousel-control-prev" href="#demo" data-slide="prev">
+					<span class="carousel-control-prev-icon"></span>
+				</a>
+				<a class="carousel-control-next" href="#demo" data-slide="next">
+					<span class="carousel-control-next-icon"></span>
+				</a>
+
+			</div>
+			<!-- 轮播图结束 -->
+			<div class="container" style="margin-top:30px">
+				<div class="row">
+					<div class="col-sm-4">
+						<h2>动物欢乐园</h2>
+						<p>
+							<hr />动物欢乐园成立于1914年，历经千难万险存活至今实属不易，望广大亲朋好友多来光顾，园内现有动物，蝴蝶，蜘蛛，螳螂，毛毛虫，等绝大多数昆虫和陆地动物，欢迎大家参观游览，本景区免费！
+
+							<hr />
+						</p>
+
+
+						<h3>动物快看</h3>
+						<p>动物图片快速链接</p>
+						<ul class="nav nav-pills flex-column">
+							<li class="nav-item">
+								<a class="nav-link active fastHref" id="t1">陆地动物</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link fastHref" id="t2">飞行动物</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link fastHref" id="t3">海洋生物</a>
+							</li>
+
+
+						</ul>
+						<hr class="d-sm-none">
+					</div>
+
+					<!-- 陆地动物开始 -->
+					<div class="col-sm-8 showBoard showBoardActive" id="s1">
+						<h2>陆地动物</h2>
+						<br>
+						<h5>狗</h5>
+						<div class="fakeimg">
+							<img src="./img/ludi1.jpg" class="img-fluid" />
+						</div>
+						<p class="jieshao">狗（拉丁文Canis lupus
+							familiaris）属于脊索动物门、脊椎动物亚门、哺乳纲、真兽亚纲、食肉目、裂脚亚目、犬科动物。中文亦称“犬”，狗分布于世界各地。狗与马、牛、羊、猪、鸡并称“六畜”。有科学家认为狗是由早期人类从灰狼驯化而来，驯养时间在4万年前~1.5万年前。被称为“人类最忠实的朋友”，是饲养率最高的宠物，其寿命大约在12~18年
+							[1] 。在中国文化中，狗属于十二生肖之一，在十二生肖中的第11位。</p>
+						<br>
+						<hr />
+						<h5>老虎</h5>
+						<div class="fakeimg">
+							<img src="./img/ludi2.jpg" class="img-fluid" />
+						</div>
+						<p class="jieshao">虎（学名：Panthera tigris ；英文名：Tiger）：
+							大型猫科动物；毛色浅黄或棕黄色，满身黑色横纹；头圆、耳短，耳背面黑色，中央有一白斑甚显著；四肢健壮有力；尾粗长，具黑色环纹，尾端黑色。</p>
+						<br>
+						<hr />
+						<h5>狮子</h5>
+						<div class="fakeimg">
+							<img src="./img/ludi3.jpg" class="img-fluid" />
+						</div>
+						<p class="jieshao">狮子（学名：Panthera leo；英文名：Lion）：简称狮，中国古称狻猊。是一种生存在非洲与亚洲的大型猫科动物，是现存平均体重最大的猫科动物，也是在世界上唯一一种雌雄两态的猫科动物。
+							狮子体型大，躯体均匀，四肢中长，趾行性。头大而圆，吻部较短，视、听、嗅觉均很发达。犬齿及裂齿极发达；上裂齿具三齿尖，下裂齿具2齿尖；臼齿较退化，齿冠直径小于外侧门齿高度。皮毛柔软。前足5趾，后足4趾；爪锋利，可伸缩。尾较发达。有“草原之王”的称号，是非洲顶级的猫科食肉动物。野生非洲雄狮平均体重240千克，全长可达3.2米。狮子的毛发短，体色有浅灰、黄色或茶色，雄狮还长有很长的鬃毛，鬃毛有淡棕色、深棕色、黑色等等，长长的鬃毛一直延伸到肩部和胸部。</p>
+						<br>
+						<hr />
+					</div>
+					<!-- 陆地动物结束 -->
+
+					<!-- 飞行动物开始 -->
+					<div class="col-sm-8  showBoard" id="s2">
+						<h2>飞行动物</h2>
+						<br>
+						<h5>老鹰</h5>
+						<div class="fakeimg">
+							<img src="./img/feixing1.jpg" class="img-fluid" />
+						</div>
+						<p class="jieshao">老鹰在不同语境下指代的生物有所不同，常泛指小型至中型的白昼活动的隼形目鸟类 [1] ，在与雕、隼、枭等猛禽比较时尤指鹰亚科物种。而在《中国动物图谱》中，特指齿鹰亚科鸢属下黑鸢的亚种黑耳鸢
+							[2] 。</p>
+						<br>
+						<hr />
+						<h5>蜻蜓</h5>
+						<div class="fakeimg">
+							<img src="./img/feixing2.jpg" class="img-fluid" />
+						</div>
+						<p class="jieshao">蜻蜓是食肉性昆虫。他们捕食苍蝇、蚊子、叶蝉、虻蠓类和小型蝶蛾类等多种农林牧业害虫。蜻蜓是有益于人类的一类重要天敌昆虫。“蜻蜓点水”是蜻蜓将卵产在水中的生物学特征．其幼虫（稚虫）生活在水中，生活期因种类而异，蜓类一般为2年，有的长达了3至5年。
+							[3] 可以用来监测环境污染，有药用、食用、观赏价值。</p>
+						<br>
+						<hr />
+						<h5>蝴蝶</h5>
+						<div class="fakeimg">
+							<img src="./img/feixing3.jpg" class="img-fluid" />
+						</div>
+						<p class="jieshao">蝶，通称为“蝴蝶，节肢动物门、昆虫纲、鳞翅目、锤角亚目动物的统称。全世界大约有 14000 多种，大部分分布在美洲，尤其在亚马逊河流域品种最多。中国有 1200
+							种。蝴蝶一般色彩鲜艳，身上有好多条纹，色彩较丰富，翅膀和身体有各种花斑，最大的蝴蝶展翅可达28～30厘米左右，最小的只有 0.7 厘米左右。蝴蝶和蛾类的主要区别是蝴蝶头部有一对棒状或锤状触角，蛾的触角形状多样。</p>
+						<br>
+						<hr />
+					</div>
+					<!-- 飞行动物结束 -->
+					<!-- 海洋生物开始 -->
+					<div class="col-sm-8  showBoard" id="s3">
+						<h2>海洋生物</h2>
+						<br>
+						<h5>水母</h5>
+						<div class="fakeimg">
+							<img src="./img/haiyang1.jpg" class="img-fluid" />
+						</div>
+						<p class="jieshao">水母（英文名称：Jelly
+							Fish）：是水生环境中重要的浮游生物，属于刺丝胞动物钵水母纲。水母是一种非常漂亮的水生动物。它的身体外形就像一把透明伞，伞状体的直径有大有小，大水母的伞状体直径可达2米。伞状体边缘长有一些须状的触手，有的触手可长达20-30米。</p>
+						<br>
+						<hr />
+						<h5>龙虾</h5>
+						<div class="fakeimg">
+							<img src="./img/haiyang2.jpg" class="img-fluid" />
+						</div>
+						<p class="jieshao">龙虾（学名：Palinuridae）是节肢动物门软甲纲十足目龙虾科下物种的通称。又名大虾、龙头虾、虾魁、海虾等。它头胸部较粗大，外壳坚硬，色彩斑斓，腹部短小，体长一般在20～40厘米之间，重0.5公斤上下，部分无螯，腹肢可后天演变成螯。最重的能达到5公斤以上，人称龙虾虎。体呈粗圆筒状，背腹稍平扁，头胸甲发达，坚厚多棘，前缘中央有一对强大的眼上棘，具封闭的鳃室。主要分布于热带海域，是名贵海产品。</p>
+						<br>
+						<hr />
+						<h5>座头鲸</h5>
+						<div class="fakeimg">
+							<img src="./img/haiyang3.jpg" class="img-fluid" />
+						</div>
+						<p class="jieshao">座头鲸（学名：Megaptera novaeangliae,又名humpback
+							whale），其“座头”之名源于日文“座头”，意为“琵琶”，指鲸背部的形状。为热带暖海性鲸类。身体较短而宽，一般长达13～15米。座头鲸以其跃出水面姿势、超长的前翅与复杂的叫声而闻名。活动时多一双一对活动，性情温顺，有洄游习性，惟游泳速度较慢。主食为小甲壳类和群游性小型鱼类。
+							座头鲸栖息于世界各大洋，中国分布于黄海、东海、南海，黄海北部较少，台湾南部海区较多。</p>
+						<br>
+						<hr />
+					</div>
+					<!-- 海洋生物结束 -->
+
+
+				</div>
+			</div>
+
+			<div class="jumbotron text-center" style="margin-bottom:0">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-4">
+							<p class="btmTitle">陆地动物</p>
+							<ul class="btmUl">
+								<li>使命必达--狗</li>
+								<li>万兽之王--老虎</li>
+								<li>威武雄壮--狮子</li>
+							</ul>
+						</div>
+						<div class="col-sm-4">
+							<p class="btmTitle">飞行动物</p>
+							<ul class="btmUl">
+								<li>展翅高飞--老鹰</li>
+								<li>亭亭玉立--蜻蜓</li>
+								<li>色彩斑斓--蝴蝶</li>
+							</ul>
+						</div>
+						<div class="col-sm-4">
+							<p class="btmTitle">海洋生物</p>
+							<ul class="btmUl">
+								<li>发光透亮--水母</li>
+								<li>美味可口--龙虾</li>
+								<li>庞然大物--座头鲸</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+
+			</div>
+
+		</div>
+
+
+
+	</body>
+	<script type="text/javascript">
+		window.onload = function() {
+			var fastHrefUl = document.getElementsByClassName('fastHref');
+			var showBoardArray = document.getElementsByClassName('showBoard');
+
+			$("#t1").click(function() {
+				$("#t1").addClass(' active ');
+				$("#t2").removeClass(' active ');
+				$("#t3").removeClass(' active ');
+				$("#s2").fadeOut("slow");
+				$("#s3").fadeOut("slow");
+				$("#s1").fadeIn("slow");
+			});
+			$("#t2").click(function() {
+				$("#t1").removeClass(' active ');
+				$("#t2").addClass(' active ');
+				$("#t3").removeClass(' active ');
+				$("#s1").fadeOut("slow");
+				$("#s3").fadeOut("slow");
+				$("#s2").fadeIn("slow");
+			});
+			$("#t3").click(function() {
+			$("#t1").removeClass(' active ');
+			$("#t2").removeClass(' active ');
+			$("#t3").addClass(' active ');
+				$("#s1").fadeOut("slow");
+				$("#s2").fadeOut("slow");
+				$("#s3").fadeIn("slow");
+			});
+
+			// for (var i = 0; i < fastHrefUl.length; i++) {
+			// 	fastHrefUl[i].index = i;
+			// 	fastHrefUl[i].onclick = function() {
+			// 		//隐藏所有，显示所点击面板
+			// 		for (var i = 0; i < fastHrefUl.length; i++) {
+			// 			fastHrefUl[i].className = 'nav-link  fastHref'
+
+			// 			showBoardArray[i].style.display = 'none'
+			// 		}
+
+			// 		this.className = 'nav-link active fastHref';
+			// 		showBoardArray[this.index].style.display = 'block';
+
+
+			// 	};
+			// }
+
+
+
+
+
+		};
+	</script>
+</html>
